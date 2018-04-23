@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Exemple Formulaire</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div class="content">
+    <h1>Questionnaire</h1>
+    <form action="" id="mon-formulaire">
+      <p>Question 1: Quel est votre nom?</p>
+      <label for="question-1">Nom: </label><input name="question-1" type="text">
+
+      <p>Question 2: Oui ou Non?</p>
+      <input type="radio" name="question-2" value="oui" id="question-2-reponse-1">
+      <label for="question-2-reponse-1">Oui</label>
+      <input type="radio" name="question-2" value="non" id="question-2-reponse-2">
+      <label for="question-2-reponse-2">Non</label>
+
+      <p>Question 3: Oui ou Non?</p>
+      <input type="radio" name="question-3" value="oui" id="question-3-reponse-1">
+      <label for="question-3-reponse-1">Oui</label>
+      <input type="radio" name="question-3" value="non" id="question-3-reponse-2">
+      <label for="question-3-reponse-2">Non</label>
+      
+      <div class="buttons">
+        <input type="submit" value="Valider" id="soumettre">
+        <input type="reset" value="Réinitialiser" id="reset">
+      </div>
+    </form>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
